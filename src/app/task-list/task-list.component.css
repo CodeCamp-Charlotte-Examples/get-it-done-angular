@@ -1,0 +1,7 @@
+ul { 
+    list-style-type: square;
+}
+
+.task-complete {
+    text-decoration: line-through;
+}
