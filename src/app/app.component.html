@@ -1,2 +1,2 @@
-<app-header></app-header>
-<app-task-list></app-task-list>
+<app-header [numTasks]="taskTotal"></app-header>
+<app-task-list (taskTotalUpdateEvent)="taskTotal = $event"></app-task-list>

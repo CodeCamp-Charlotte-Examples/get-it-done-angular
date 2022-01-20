@@ -1,0 +1,9 @@
+#task-count {
+    font-size: 90%;
+    font-style: italic;
+    margin-left: 15px;
+}
+
+h1, #task-count {
+    display: inline-block;
+}

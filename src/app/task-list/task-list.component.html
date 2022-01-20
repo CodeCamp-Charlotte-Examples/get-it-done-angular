@@ -13,7 +13,7 @@
 
 <ul>
     <li *ngFor="let task of getTasksWithCompletionStatus(true)">
-        <span (click)="toggleCompletionStatus(task)" class="task-complete">{{ task.description }}</span>
+        <span (click)="toggleCompletionStatus(task)" [class.task-complete]="task.isComplete">{{ task.description }}</span>
     </li>
 </ul>
 
